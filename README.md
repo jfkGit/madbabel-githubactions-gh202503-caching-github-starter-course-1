@@ -3,7 +3,7 @@
 Explorar cómo compartir salidas de construcción entre trabajos y cómo combinar el uso de caché y artefactos en el mismo flujo de trabajo.
 Para lograr esto, crearemos un flujo de trabajo que construirá una aplicación React y almacenará los archivos de construcción como artefactos. Además, generaremos un informe de cobertura de pruebas unitarias y lo almacenaremos como un artefacto adicional.
 
-## Tareas
+## Tareas 
 
 ### Trabajando con artefactos y caché:
 

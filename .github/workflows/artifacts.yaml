@@ -33,7 +33,4 @@ jobs:
               run: npm ci --prefix my-app
                   
             - name: Build code
-              run: npm run build --prefix my-app
-              
-      
- 
+              run: npm run build --prefix my-app 
