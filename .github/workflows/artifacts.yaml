@@ -34,3 +34,6 @@ jobs:
                   
             - name: Build code
               run: npm run build my-app 
+              
+            - name: Unit tests
+              run: npm run test --prefix my-app -- --coverage
