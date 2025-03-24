@@ -30,7 +30,7 @@ jobs:
 
             - name: Install dependencies
               if: steps.cache.outputs.cache-hit != 'true'
-              run: npm ci --prefix my-app
+              run: npm ci 
                   
             - name: Build code
-              run: npm run build --prefix my-app 
+              run: npm run build my-app 
